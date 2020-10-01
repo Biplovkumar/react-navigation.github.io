@@ -83,8 +83,12 @@ Next, we need to link these libraries. The steps depends on your React Native ve
 
   You also need to configure [jetifier](https://github.com/mikehardy/jetifier) to support dependencies using `androidx`:
 
-  ```bash npm2yarn
+  ```bash npm
   npm install --save-dev jetifier
+  ```
+  
+  ```bash yarn
+  yarn add --dev jetifier
   ```
 
   Then add it to the `postinstall` script in `package.json`:
